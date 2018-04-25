@@ -18,8 +18,8 @@
 		50A3950F208F090800DF2C11 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3950E208F090800DF2C11 /* Constants.swift */; };
 		50A39511208F144D00DF2C11 /* HotelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A39510208F144D00DF2C11 /* HotelObject.swift */; };
 		50A39513208F152E00DF2C11 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A39512208F152E00DF2C11 /* DataManager.swift */; };
-		50A3951A208F25DA00DF2C11 /* call_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A39519208F25DA00DF2C11 /* call_button.png */; };
 		50A3951C208F5D2E00DF2C11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A3951B208F5D2E00DF2C11 /* Default-568h@2x.png */; };
+		50A39523209030CE00DF2C11 /* call_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A39522209030CE00DF2C11 /* call_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		50A3950E208F090800DF2C11 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50A39510208F144D00DF2C11 /* HotelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelObject.swift; sourceTree = "<group>"; };
 		50A39512208F152E00DF2C11 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		50A39519208F25DA00DF2C11 /* call_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = call_button.png; path = Hotels/Resources/call_button.png; sourceTree = SOURCE_ROOT; };
 		50A3951B208F5D2E00DF2C11 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		50A39522209030CE00DF2C11 /* call_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		50A394DD208F08D100DF2C11 /* Hotels */ = {
 			isa = PBXGroup;
 			children = (
-				50A39516208F25AA00DF2C11 /* Resources */,
+				50A39521209030A000DF2C11 /* Resources */,
 				50A394DE208F08D100DF2C11 /* AppDelegate.swift */,
 				50A3950C208F08FA00DF2C11 /* HotelListAPI.swift */,
 				50A39510208F144D00DF2C11 /* HotelObject.swift */,
@@ -143,13 +143,12 @@
 			path = HotelsUITests;
 			sourceTree = "<group>";
 		};
-		50A39516208F25AA00DF2C11 /* Resources */ = {
+		50A39521209030A000DF2C11 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				50A39519208F25DA00DF2C11 /* call_button.png */,
+				50A39522209030CE00DF2C11 /* call_button.png */,
 			);
-			name = Resources;
-			path = "New Group";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A39523209030CE00DF2C11 /* call_button.png in Resources */,
 				50A394E9208F08D100DF2C11 /* LaunchScreen.storyboard in Resources */,
-				50A3951A208F25DA00DF2C11 /* call_button.png in Resources */,
 				50A394E6208F08D100DF2C11 /* Assets.xcassets in Resources */,
 				50A3951C208F5D2E00DF2C11 /* Default-568h@2x.png in Resources */,
 				50A394E4208F08D100DF2C11 /* Main.storyboard in Resources */,

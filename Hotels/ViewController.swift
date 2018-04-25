@@ -76,9 +76,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         else
         {
-            hotelArray = DataManager.sharedInstance.makeDataModel(notification.object as! NSDictionary)
-            if hotelArray.count != 0
+            let tempArray : NSMutableArray = DataManager.sharedInstance.makeDataModel(notification.object as! NSDictionary)
+            if tempArray.count != 0
             {
+                let descriptor: NSSortDescriptor = NSSortDescriptor(key:"distance", ascending: true)
+
+                hotelArray = NSMutableArray(array: tempArray.sortedArray(using: [descriptor]))
                 self.hotelTableView.reloadData()
                 self.errorLabel.isHidden = true
                 self.hotelTableView.isHidden = false

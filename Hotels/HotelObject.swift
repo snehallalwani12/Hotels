@@ -30,6 +30,6 @@ class HotelObject: NSObject {
     var neighbourhoodName : String!
     var phoneNumber : String!
     var cityName : String!
-    var distance : String!
+  @objc  var distance : String!
     var coverURL : String!
 }

@@ -108,7 +108,7 @@ class DataManager: NSObject {
 //                    {
 //                        hotelObj.cityName = hotelDict.object(forKey: "CityName") as! String
 //                    }
-                    if let distance = hotelDict["Distance"] as? NSString {
+                    if let distance = hotelDict["Distance"] as? String {
                         hotelObj.distance = distance as String!
                     }
 //                    if(hotelDict.object(forKey: "CoverURL") != nil)

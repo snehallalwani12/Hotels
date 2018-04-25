@@ -1,0 +1,3 @@
+# Hotels
+
+Run on Simulator.
